@@ -39,8 +39,8 @@ $.init = function() {
 		y: ( $.wh - $.ch ) / -2
 	};
 
-	$.mute = $.storage.mute;
-	$.autofire = $.storage.autofire;
+	$.mute = $.storage['mute'];
+	$.autofire = $.storage['autofire'];
 	$.slowEnemyDivider = 3;	
 
 	$.keys = {
@@ -143,7 +143,7 @@ $.reset = function() {
 		x: 0,
 		y: 0,
 		level: 0,
-		decay: 0.5
+		decay: 0.4
 	};	
 
 	$.mouse.down = 0;
@@ -753,12 +753,6 @@ Miscellaneous
 ==============================================================================*/
 $.clearScreen = function() {
 	$.ctxmg.clearRect( 0, 0, $.cw, $.ch );
-	/*/
-	$.ctxmg.globalCompositeOperation = 'destination-out';
-	$.ctxmg.fillStyle = 'rgba(0, 0, 0, 0.5)';
-	$.ctxmg.fillRect( 0, 0, $.cw, $.ch );
-	$.ctxmg.globalCompositeOperation = 'source-over';
-	//*/
 };
 
 $.updateDelta = function() { 
@@ -1006,11 +1000,10 @@ $.setState = function( state ) {
 			lockedHeight: 49,
 			scale: 3,
 			title: 'CLEAR DATA',
-			action: function() {				
+			action: function() {
+				$.mouse.down = 0;				
 				if( window.confirm( 'Are you sure you want to clear all locally stored game data? This cannot be undone.') ) {
 					$.clearStorage();
-					$.mouse.down = 0;
-				} else {
 					$.mouse.down = 0;
 				}
 			}
@@ -1043,6 +1036,7 @@ $.setState = function( state ) {
 			title: 'JS13KGAMES',
 			action: function() {				
 				location.href = 'http://js13kgames.com';
+				$.mouse.down = 0;
 			}
 		} );
 		$.buttons.push( js13kButton );
@@ -1086,12 +1080,10 @@ $.setState = function( state ) {
 			scale: 3,
 			title: 'MENU',
 			action: function() {
+				$.mouse.down = 0;
 				if( window.confirm( 'Are you sure you want to end this game and return to the menu?') ) {
 					$.mousescreen();
-					$.mouse.down = 0;
 					$.setState( 'menu' );
-				} else {
-					$.mouse.down = 0;
 				}			
 			}
 		} );

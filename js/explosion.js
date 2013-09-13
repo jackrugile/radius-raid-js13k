@@ -7,7 +7,7 @@ $.Explosion = function( opt ) {
 	}
 	this.tick = 0;
 	this.tickMax = 20;
-	if( $.powerupTimers[ 1 ] > 0 ) {
+	if( $.slow ) {
 		$.audio.play( 'explosionAlt' );
 	} else {
 		$.audio.play( 'explosion' );
