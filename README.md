@@ -12,8 +12,8 @@ This is an an entry for [js13kGames](http://js13kgames.com) 2013. The theme this
 **Mute:** M
 
 #Credits#
-**Created By:** [Jack Rugile](http://jackrugile.com)  
-**Inspiration and Support:** [@rezoner](https://twitter.com/rezoner), [@loktar00](https://twitter.com/loktar00), [@end3r](https://twitter.com/end3r), [@austinhallok](https://twitter.com/austinhallok), [@chandlerprall](https://twitter.com/chandlerprall)  
+**Created By:** [@jackrugile](https://twitter.com/jackrugile)  
+**Inspiration and Support:** [@rezoner](https://twitter.com/rezoner), [@loktar00](https://twitter.com/loktar00), [@end3r](https://twitter.com/end3r), [@austinhallock](https://twitter.com/austinhallok), [@chandlerprall](https://twitter.com/chandlerprall)  
 **Audio Processing:** [JSFXR](https://github.com/mneubrand/jsfxr) by [@markusneubrand](https://twitter.com/markusneubrand)  
 **Game Inspiration and Ideas:** [Asteroids](http://www.atari.com/arcade/asteroids), [Cell Warfare](http://armorgames.com/play/3204/cell-warfare), [Space Pips](http://armorgames.com/play/3097/space-pips), and many more  
 **HTML5 Canvas Reference:** Nihilogic - [HTML5 Canvas Cheat Sheet](http://blog.nihilogic.dk/2009/02/html5-canvas-cheat-sheet.html)  
