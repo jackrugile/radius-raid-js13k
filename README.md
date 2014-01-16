@@ -27,6 +27,6 @@ I so badly wanted to use [@rezoner](https://twitter.com/rezoner)'s JavaScript ch
 **Game Math Reference:** Billy Lamberta - [Foundation HTML5 Animation with JavaScript](http://lamberta.github.io/html5-animation/)
 
 #Screenshots#
-![Radius Raid Menu](http://jackrugile.com/radius-raid-js13k/images/menu-screenshot.png "Radius Raid Menu")
+![Radius Raid Menu](http://jackrugile.com/radius-raid/images/menu-screenshot.png "Radius Raid Menu")
 
-![Radius Raid Gameplay](http://jackrugile.com/radius-raid-js13k/images/gameplay-screenshot.png "Radius Raid Gameplay")
+![Radius Raid Gameplay](http://jackrugile.com/radius-raid/images/gameplay-screenshot.png "Radius Raid Gameplay")
