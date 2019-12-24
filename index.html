@@ -5,6 +5,10 @@
 		<link rel="shortcut icon" id="favicon" />
 
 		<style>
+
+			html {
+				overflow: hidden;
+			}
 			body {
 				background: #080808;
 			}
@@ -14,20 +18,20 @@
 				box-shadow: inset 0 0 0 1px #404040, 0 0 0 1px #000;
 				left: 50%;
 				opacity: 0;
-				padding: 10px;		
+				padding: 10px;
 				position: absolute;
 				top: 50%;
 				transition: opacity 1.5s;
 			}
 
-			.loaded #wrap {				
-				opacity: 1;			
+			.loaded #wrap {
+				opacity: 1;
 			}
 
 			#wrap-inner {
-				background: #000;				
+				background: #000;
 				overflow: hidden;
-				position: relative;				
+				position: relative;
 			}
 
 			canvas {
@@ -55,7 +59,7 @@
 		<script src="js/util.js"></script>
 		<script src="js/storage.js"></script>
 		<script src="js/definitions.js"></script>
-		<script src="js/audio.js"></script>		
+		<script src="js/audio.js"></script>
 		<script src="js/text.js"></script>
 		<script src="js/hero.js"></script>
 		<script src="js/enemy.js"></script>
